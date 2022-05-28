@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Themes</title>
+  </head>
+
+  <body>
+    <div class="theme" id="theme">
+      <p class="label" id="label">Light Mode</p>
+      <img id="icon"
+        src="https://cdn-icons-png.flaticon.com/512/1255/1255694.png?w=826"
+        alt=""
+      />
+    </div>
+    <div class="options" id="options">
+      <button class="dark" onclick="selectMode('dark');" id="dark">dark</button>
+      <button class="light" onclick="selectMode('light');" id="light">light</button>
+      <button class="ninja" onclick="selectMode('ninja');" id="ninja">ninja</button>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
